@@ -1,0 +1,30 @@
+{
+    "name": "edouardtack/hook",
+    "description": "Class to create some hooks in your global php code",
+    "type": "library",
+    "homepage": "https://github.com/EdouardTack/Hook",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edouard Tack",
+            "email": "edouard@tackacoder.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "edouard@tackacoder.fr",
+        "issues": "https://github.com/EdouardTack/Hook/issues",
+        "source": "https://github.com/EdouardTack/Hook/tree/master",
+        "docs": "https://github.com/EdouardTack/Hook/blob/master/README.md"
+    },
+    "require": {
+        "php": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EdouardTack\\Hook\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable"
+}
