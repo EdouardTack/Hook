@@ -14,7 +14,7 @@ class UnavailableHookException extends Exception {
      * @param \Exception|null $previous the previous exception.
      */
     public function __construct(string $message, int $code = 0, Exception $previous = null) {
-        parent::__construct($message, $code, $previous);
+        parent::__construct('HOOK ERROR, message : "' . $message . '"', $code, $previous);
     }
 
 }
